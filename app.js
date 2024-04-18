@@ -1,14 +1,9 @@
-// Contenido de app.js
-//console.log("Hello Word");
+
 
 // Esta es mi funcion
 const sum = (a, b) => {
     return a + b;
 }
-
-// Sólo un registro en cosola para nosotros
-
-//console.log(sum(5,7));
 
 
 const fromEuroToDollar = function (valueInEuro) {
@@ -23,7 +18,6 @@ const fromDollarToYen = function (ValueInDollar) {
 
 const fromYenToPound = function (valueInYen) {
     let valueInPound = valueInYen * 0.87;
-
     return valueInPound;
 
 }
